@@ -1,0 +1,47 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Periodic Updates from the Wroker thread</h1>
+      <h2>Cant be done via setInetrval</h2>
+    </div>
+    <div>
+      <h2>Append Button</h2>
+      <div class="append-parent">
+        <button class="append">Append</button>
+      </div>
+    </div>
+    <div>
+      <h2>Compute Pi</h2>
+      <div class="sec-computePi">
+        <button class="compute">ComputePi</button>
+        <p class="pival"></p>
+        <p class="kval"></p>
+      </div>
+    </div>
+    <div class="showReason">
+      <h1>Click the button to show the reason</h1>
+      <button class="reason">
+        Show Reason for not getting periodic updation
+      </button>
+    </div>
+    <h1></h1>
+    <h1></h1>
+    <div class="sec-computePi-update">
+      <h1>Updation of the UI periodically</h1>
+      <button class="compute-async">
+        update UI periodically
+      </button>
+      <p class="pival-async"></p>
+        <p class="kval-async"></p>
+    </div>
+  </body>
+</html>
