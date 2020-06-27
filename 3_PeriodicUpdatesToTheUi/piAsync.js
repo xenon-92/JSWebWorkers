@@ -5,7 +5,7 @@ state.p = 0;
 state.k = 0;
 var date = new Date();
 for (var i = 0; i < 10000000; i++) {
-  if (new Date() - date > 1000) {
+  if (new Date() - date > 1000) { //This work but testing the date for every second is inefficient
     this.postMessage(state);
     date = new Date();
   }
